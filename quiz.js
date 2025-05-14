@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const quizDivs = document.querySelectorAll('.quiz');
+    quizDivs[0].classList.add('margin-bottom');
 
     quizDivs.forEach(div => {
         let questions;
