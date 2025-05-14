@@ -127,7 +127,7 @@
       </p>
     </app-essential-facts>
 
-    <div class="quiz"
+    <!-- <div class="quiz"
        data-question="What is the capital of France?"
        data-answers='[
          {"text":"Berlin", "message":"Nope! Berlin is the capital of Germany."},
@@ -135,6 +135,27 @@
          {"text":"Paris", "message":"Correct! Paris is the capital of France."},
          {"text":"Rome", "message":"Wrong. Rome is the capital of Italy."}
        ]'>
-  </div>
+    </div> -->
+
+    <div class="quiz" data-questions='[
+    {
+      "question": "What is the capital of France?",
+      "answers": [
+        {"text": "Berlin", "message": "Nope, try again."},
+        {"text": "Madrid", "message": "Nope, try again."},
+        {"text": "Paris", "message": "Correct! Paris is the capital of France."},
+        {"text": "Rome", "message": "Nope, try again."}
+      ]
+    },
+    {
+      "question": "What is the capital of Germany?",
+      "answers": [
+        {"text": "Berlin", "message": "Correct! Berlin is the capital of France."},
+        {"text": "Madrid", "message": "Nope, try again."},
+        {"text": "Paris", "message": "Nope, try again."},
+        {"text": "Rome", "message": "Nope, try again."}
+      ]
+    }
+  ]'></div>
   </body>
 </html>

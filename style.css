@@ -43,6 +43,11 @@ p.question {
   background-color: #fc3;
 }
 
+.answer-button.next {
+  color: #fff;
+  background-color: #0098ef;
+}
+
 .result-message {
   color: #a0abbc;
   position: relative;
