@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../style.css">
-
+    <script src="../../quiz.js" defer></script>
 </head>
 
 <body>
@@ -22,20 +22,21 @@
                 statement, you should use only one negative word. Common negative words include&nbsp;<em
                     _ngcontent-fbe-c268="">nothing, none, never, not, neither, scarcely, barely, hardly</em>,
                 and&nbsp;<em _ngcontent-fbe-c268="">without</em>. The&nbsp;<em _ngcontent-fbe-c268="">n’t</em>&nbsp;part
-                of a contraction and prefixes such as un- and non- are also considered negatives.</div><app-quiz
-                _ngcontent-fbe-c268="" _nghost-fbe-c6="">
-                <div _ngcontent-fbe-c6="">
-                    <h4 _ngcontent-fbe-c6="" class="question-no"> Question 1 </h4>
-                    <p _ngcontent-fbe-c6="" class="question-text">I couldn’t never have finished that difficult job by
-                        myself.</p><button _ngcontent-fbe-c6="" class="button-full-width"> No Change </button><button
-                        _ngcontent-fbe-c6="" class="button-full-width"> couldn’t ever have finished </button><button
-                        _ngcontent-fbe-c6="" class="button-full-width"> could ever have finished </button><button
-                        _ngcontent-fbe-c6="" class="button-full-width"> couldn’t never ever have finished
-                    </button><!----><!----><!---->
-                </div><!---->
-            </app-quiz>
+                of a contraction and prefixes such as un- and non- are also considered negatives.</div>
         </app-double-negatives><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
     </div>
+
+    <div class="quiz" data-questions='[
+  {
+    "question": "I couldn’t never have finished that difficult job by myself.",
+    "answers": [
+      {"text": "No Change", "message": "Wrong, try again."},
+      {"text": "couldn’t ever have finished", "message": "Since the sentence already utilizes a negative word (couldn’t), you don’t need the second one (never). Never can be replaced with ever or removed altogether."},
+      {"text": "could ever have finished", "message": "Wrong, try again."},
+      {"text": "couldn’t never ever have finished", "message": "Wrong, try again."}
+    ]
+  }
+]'></div>
 
 </body>
 

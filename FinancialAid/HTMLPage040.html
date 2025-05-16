@@ -1,22 +1,52 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="../../quiz.js" defer></script>
+  </head>
+  <body>
     <app-home _ngcontent-mqv-c58="" _nghost-mqv-c54="">
-        <h2 _ngcontent-mqv-c54="">What is Financial Aid and Packaging?</h2>
-        <iframe _ngcontent-mqv-c54="" width="560" height="315" src="https://www.youtube.com/embed/J6gMN1uFGHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        <p _ngcontent-mqv-c54="">
-            <strong _ngcontent-mqv-c54="">Objectives:&nbsp;</strong>
-        </p>
-        <ul _ngcontent-mqv-c54="">
-            <li _ngcontent-mqv-c54="">Understand what financial aid and packaging is&nbsp;</li>
-            <li _ngcontent-mqv-c54="">Understand what the FAFSA and EFC are&nbsp;</li>
-            <li _ngcontent-mqv-c54="">Differentiate between different types of financial aid&nbsp;and other funding options&nbsp;</li>
-        </ul>
+      <h2 _ngcontent-mqv-c54="">What is Financial Aid and Packaging?</h2>
+      <iframe
+        _ngcontent-mqv-c54=""
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/J6gMN1uFGHc"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen=""
+      ></iframe>
+      <p _ngcontent-mqv-c54="">
+        <strong _ngcontent-mqv-c54="">Objectives:&nbsp;</strong>
+      </p>
+      <ul _ngcontent-mqv-c54="">
+        <li _ngcontent-mqv-c54="">
+          Understand what financial aid and packaging is&nbsp;
+        </li>
+        <li _ngcontent-mqv-c54="">
+          Understand what the FAFSA and EFC are&nbsp;
+        </li>
+        <li _ngcontent-mqv-c54="">
+          Differentiate between different types of financial aid&nbsp;and other
+          funding options&nbsp;
+        </li>
+      </ul>
     </app-home>
-</body>
+
+    <div
+      class="quiz"
+      data-questions='[
+    {
+        "question": "When searching for financial aid, I….",
+        "answers": [
+            {"text": "Don’t have to complete the FAFSA", "message": "None of these answers are correct. All college-bound students should complete the FAFSA even if you think you won’t qualify for aid. Loans are only one kind of financial aid available, and it is possible, depending on your circumstances, you might receive a combination of loans, grants, or scholarships in you aid package."},
+            {"text": "Should only expect to receive loans", "message": "None of these answers are correct. All college-bound students should complete the FAFSA even if you think you won’t qualify for aid. Loans are only one kind of financial aid available, and it is possible, depending on your circumstances, you might receive a combination of loans, grants, or scholarships in you aid package."},
+            {"text": "Will only have one type of financial aid available to me", "message": "None of these answers are correct. All college-bound students should complete the FAFSA even if you think you won’t qualify for aid. Loans are only one kind of financial aid available, and it is possible, depending on your circumstances, you might receive a combination of loans, grants, or scholarships in you aid package."}
+        ]
+    }
+]'
+    ></div>
+  </body>
 </html>

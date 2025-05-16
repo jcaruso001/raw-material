@@ -1,34 +1,136 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="../../quiz.js" defer></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div _ngcontent-fbe-c364="" class="college-prep-column-66 ml-32">
-        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-writing-and-language-practice
-            _ngcontent-fbe-c364="" _nghost-fbe-c290="">
-            <h1 _ngcontent-fbe-c290="">Writing and Language Practice Questions</h1><app-quiz _ngcontent-fbe-c290=""
-                _nghost-fbe-c6="">
-                <div _ngcontent-fbe-c6="">
-                    <h4 _ngcontent-fbe-c6="" class="question-no"> Question 1 </h4>
-                    <p _ngcontent-fbe-c6="" class="question-text">Knocking over the trashcan, debris flew everywhere.
-                    </p><button _ngcontent-fbe-c6="" class="button-full-width"> No Change </button><button
-                        _ngcontent-fbe-c6="" class="button-full-width"> trashcan I caused debris to fly everywhere.
-                    </button><button _ngcontent-fbe-c6="" class="button-full-width"> trashcan caused debris to fly
-                        everywhere. </button><button _ngcontent-fbe-c6="" class="button-full-width"> trashcan is what
-                        caused the debris to fly everywhere. </button><!----><!----><button _ngcontent-fbe-c6=""
-                        class="button-primary button-full-width">Next</button><!---->
-                </div><!---->
-            </app-quiz>
-        </app-writing-and-language-practice><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+      <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-writing-and-language-practice
+        _ngcontent-fbe-c364=""
+        _nghost-fbe-c290=""
+      >
+        <h1 _ngcontent-fbe-c290="">
+          Writing and Language Practice Questions
+        </h1> </app-writing-and-language-practice
+      ><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
     </div>
 
-</body>
-
+    <div
+      class="quiz"
+      data-questions='[
+    {
+        "question": "Knocking over the trashcan, debris flew everywhere.",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "trashcan I caused debris to fly everywhere.", "message": "Wrong, try again."},
+            {"text": "trashcan caused debris to fly everywhere.", "message": "In the original sentence, knocking over the trashcan modifies debris. Choice B would work if it had a comma after the introductory phrase. Choices D and E are unnecessarily wordy. "},
+            {"text": "trashcan is what caused the debris to fly everywhere.", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "Jacob and I only saw one butterfly in the garden yesterday. ",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "and I saw only one", "message": "Only should precede the word one. I saw only one. I didn’t only see it."},
+            {"text": "and only I saw ", "message": "Wrong, try again."},
+            {"text": "and I saw one only", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "Working all the time and not having time to practice baseball.",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "Working all the time causes me not to have time to practice baseball.", "message": "Wrong, try again."},
+            {"text": "Because I work all the time, I don’t have time to practice baseball.", "message": "The original sentence is a fragment. Choice D is a run-on. Choices B and E are unnecessarily wordy. Choice C is a complete - and concise – sentence"},
+            {"text": "I work all the time and therefore I don’t have time to practice baseball.", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "This information goes along with topics that we have already touched based on.",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "topics that we have already addressed ", "message": " Avoid wordiness! All of the other choices are awkward and wordy. Remember, shorter answers are usually better answers to the “sentence improvement” questions."},
+            {"text": "topics because we have already touched base on them", "message": "Wrong, try again."},
+            {"text": "topics on which we have already touched base", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "Each of my friends has worked hard to make his project successful. ",
+        "answers": [
+            {"text": "No Change", "message": "Each is a singular pronoun; therefore, has is correct."},
+            {"text": "of my friends will work hard", "message": "Wrong, try again."},
+            {"text": "of my friends has working hard", "message": "Wrong, try again."},
+            {"text": "of my friends have worked hard", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "Those students have not had the training they need to learn to be a safe driver. ",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "to be safe driver", "message": "Wrong, try again."},
+            {"text": "to be safe drivers", "message": "Multiple students can’t be (one) safe driver. They must be safe drivers."},
+            {"text": "to be a safe drivers", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "Over the course of this week, we hiked, camped, and went skiing. ",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "hiked, went to camp, and skied", "message": "Wrong, try again."},
+            {"text": "hiked, camped, and skied ", "message": "In order to make this sentence parallel in structure, we should say hiked, camped, and skied."},
+            {"text": "went hiking, camped, and went skiing", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "The teacher caught Geoffrey cheating, and he was kicked out of class.",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "cheating, and therefore he was kicked", "message": "Wrong, try again."},
+            {"text": "cheating and kicked him", "message": "Although the sentence is not grammatically incorrect as it is, it does not use passive voice. Choices B and E also contain passive voice. Choice D is wordy. Choice C uses active voice and is concise."},
+            {"text": "cheating after which he kicked him", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "I can’t make heads and tails of this chemistry assignment.",
+        "answers": [
+            {"text": "No Change ", "message": "Wrong, try again."},
+            {"text": "can’t make neither heads nor tails of", "message": "Wrong, try again."},
+            {"text": "can’t make heads and tails about", "message": "Wrong, try again."},
+            {"text": "can’t make heads or tails of ", "message": "The idiom is heads or tails, which eliminates choices A, B, and C. Choice E contains a double negative."}
+        ]
+    },
+    {
+        "question": "Hannah Williams is the type of student whom I admire greatly.",
+        "answers": [
+            {"text": "No Change", "message": "Whom is used for direct objects, objects of prepositions, and indirect objects. In this case, whom is the direct object of I admire."},
+            {"text": "who I admire greatly", "message": "Wrong, try again."},
+            {"text": "who I admire greatly", "message": "Wrong, try again."},
+            {"text": "for whom I admire greatly", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "We don’t hardly have enough time to finish our homework. ",
+        "answers": [
+            {"text": "No change", "message": "Wrong, try again."},
+            {"text": "don’t hardly ever have", "message": "Wrong, try again."},
+            {"text": "hardly ever have", "message": "Don’t hardly is a double negative. We can say either don’t have or hardly have."},
+            {"text": "don’t hardly never have", "message": "Wrong, try again."}
+        ]
+    },
+    {
+        "question": "I used to dislike all types of vegetables accept green beans. ",
+        "answers": [
+            {"text": "No Change", "message": "Wrong, try again."},
+            {"text": "accepting", "message": "Wrong, try again."},
+            {"text": "except", "message": "Accept is a verb. In this sentence we need to use except."},
+            {"text": "excepted", "message": "Wrong, try again."}
+        ]
+    }
+]'
+    ></div>
+  </body>
 </html>

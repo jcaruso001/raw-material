@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="../../quiz.js" defer></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div _ngcontent-oly-c364="" class="college-prep-column-66 ml-32">
-        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-subject-verb-agreement
-            _ngcontent-oly-c364="" _nghost-oly-c282="">
-            <h2 _ngcontent-oly-c282="">Subject/Verb Agreement</h2>
-            <p _ngcontent-oly-c282="">It is important that your subjects agree with your verbs. In other words, you must
-                write he jumps instead of he jump because a singular subject (he) takes a singular verb (jumps).
-                Subject/verb agreement gets tricky when a prepositional phrase comes between the subject and the verb.
-                However, you should ignore the prepositional phrase and make the verb agree with the subject. (One of
-                the girls likes the movie.) Note that the following pronouns are singular: each, either, neither,
-                someone, somebody, everyone, everybody, anyone, anybody, no one, nobody. (Neither of the movies was very
-                good.) When two or more subjects are joined by and, you must use a plural verb. (Hiking and camping are
-                fun.) When two or more subjects are joined by or or nor, the verb agrees with the subject nearest the
-                verb. (Neither the players nor the coach is late for practice.) Finally, amounts are usually singular,
-                as are titles. (Two hours is a long time to wait. Great Expectations is a great book.)</p><iframe
-                _ngcontent-oly-c282="" width="560" height="315" src="https://www.youtube.com/embed/pfWbMrRwlg8"
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen=""></iframe>
-            <h2 _ngcontent-oly-c282="" class="mt-5">Example:</h2><app-quiz _ngcontent-oly-c282="" _nghost-oly-c6="">
-                <div _ngcontent-oly-c6="">
-                    <h4 _ngcontent-oly-c6="" class="question-no"> Question 1 </h4>
-                    <p _ngcontent-oly-c6="" class="question-text">Help for improving test-taking skills and&nbsp;reading
-                        skills are&nbsp;also available.</p><button _ngcontent-oly-c6="" class="button-full-width"> NO
-                        CHANGE </button><button _ngcontent-oly-c6="" class="button-full-width"> for reading skills are
-                    </button><button _ngcontent-oly-c6="" class="button-full-width"> reading skills is </button><button
-                        _ngcontent-oly-c6="" class="button-full-width"> for reading skills is
-                    </button><!----><!----><!---->
-                </div><!---->
-            </app-quiz>
-        </app-subject-verb-agreement><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+      <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-subject-verb-agreement
+        _ngcontent-oly-c364=""
+        _nghost-oly-c282=""
+      >
+        <h2 _ngcontent-oly-c282="">Subject/Verb Agreement</h2>
+        <p _ngcontent-oly-c282="">
+          It is important that your subjects agree with your verbs. In other
+          words, you must write he jumps instead of he jump because a singular
+          subject (he) takes a singular verb (jumps). Subject/verb agreement
+          gets tricky when a prepositional phrase comes between the subject and
+          the verb. However, you should ignore the prepositional phrase and make
+          the verb agree with the subject. (One of the girls likes the movie.)
+          Note that the following pronouns are singular: each, either, neither,
+          someone, somebody, everyone, everybody, anyone, anybody, no one,
+          nobody. (Neither of the movies was very good.) When two or more
+          subjects are joined by and, you must use a plural verb. (Hiking and
+          camping are fun.) When two or more subjects are joined by or or nor,
+          the verb agrees with the subject nearest the verb. (Neither the
+          players nor the coach is late for practice.) Finally, amounts are
+          usually singular, as are titles. (Two hours is a long time to wait.
+          Great Expectations is a great book.)
+        </p>
+        <iframe
+          _ngcontent-oly-c282=""
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/pfWbMrRwlg8"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+        ></iframe>
+        <h2 _ngcontent-oly-c282="" class="mt-5">
+          Example:
+        </h2> </app-subject-verb-agreement
+      ><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
     </div>
 
-</body>
-
+    <div
+      class="quiz"
+      data-questions='[
+    {
+        "question": "Help for improving test-taking skills and reading skills are also available.",
+        "answers": [
+            {"text": "NO CHANGE", "message": "Nope, try again."},
+            {"text": "for reading skills are", "message": "Nope, try again."},
+            {"text": "reading skills is", "message": "The subject (Help) is singular and therefore requires a singular verb (is, not are). The prepositional phrase (for improving test-taking skills and reading skills) is meant to trick you because it’s plural. It’s also long so that by the time you reach the verb, you’ve lost track of the subject, so be careful!"},
+            {"text": "for reading skills is", "message": "Nope, try again."}
+        ]
+    }
+]'
+    ></div>
+  </body>
 </html>

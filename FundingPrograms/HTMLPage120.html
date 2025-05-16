@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../style.css">
+    <script src="../../quiz.js" defer></script>
+
 </head>
 <body>
     <app-home _ngcontent-mqv-c79="" _nghost-mqv-c66="">
@@ -23,16 +25,18 @@
         <h2 _ngcontent-mqv-c66="" class="mb-5">
             <i _ngcontent-mqv-c66="" class="fad fa-chevron-down"></i> Knowledge Check
         </h2>
-        <app-quiz _ngcontent-mqv-c66="" _nghost-mqv-c6="">
-            <div _ngcontent-mqv-c6="">
-                <h4 _ngcontent-mqv-c6="" class="question-no"> Question 1 </h4>
-                <p _ngcontent-mqv-c6="" class="question-text">Which of the following service programs provide monetary college educational benefits?</p>
-                <button _ngcontent-mqv-c6="" class="button-full-width"> Military Academies </button>
-                <button _ngcontent-mqv-c6="" class="button-full-width"> ROTC Programs </button>
-                <button _ngcontent-mqv-c6="" class="button-full-width"> Service Enlistment Programs </button>
-                <button _ngcontent-mqv-c6="" class="button-full-width"> Senior Military Colleges </button><!----><!----><!---->
-            </div><!---->
-        </app-quiz>
     </app-home>
+
+    <div class="quiz" data-questions='[
+    {
+        "question": "Which of the following service programs provide monetary college educational benefits?",
+        "answers": [
+            {"text": "Military Academies", "message": "All provide some form of monetary college financing. Let`s explore more."},
+            {"text": "ROTC Programs", "message": "All provide some form of monetary college financing. Let`s explore more."},
+            {"text": "Service Enlistment Programs", "message": "All provide some form of monetary college financing. Let`s explore more."},
+            {"text": "Senior Military Colleges", "message": "All provide some form of monetary college financing. Let`s explore more."}
+        ]
+    }
+]'></div>
 </body>
 </html>
