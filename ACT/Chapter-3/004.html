@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../style.css">
+    <script src="../../quiz.js" defer></script>
 </head>
 
 <body>
@@ -29,6 +30,27 @@
                 voice when- ever possible.</li>
         </ul>
     </app-active-passive-voice>
+
+    <div class="quiz" data-questions='[
+      {
+        "question": "The letter is written by <u>Sir Andrew and Sir Toby</u> as a trick to make a fool of Malvolio.",
+        "answers": [
+          {"text": "NO CHANGE", "message": "Nope, try again."},
+          {"text": "Sir Andrew and Sir Toby wrote the letter", "message": "The correct answer is B because the subjects (Sir Andrew and Sir Toby) do the action (wrote). In other words, the sentence is in active voice rather than passive voice. While D is also active voice, it’s wordy. Remember, on the ACT there may be more than one correct answer, but you’re looking for the best one. Stay away from wordiness."},
+          {"text": "The letter, which is written by Sir Andrew and Sir Toby,", "message": "Nope, try again."},
+          {"text": "Sir Andrew and Sir Toby write the letter, and they do it", "message": "Nope, try again."}
+        ]
+      },
+      {
+        "question": "The second letter is written by Sir Andrew and Sir Toby</u> as a trick to make a fool of Malvolio.",
+        "answers": [
+          {"text": "NO CHANGE", "message": "Nope, try again."},
+          {"text": "Sir Andrew and Sir Toby wrote the letter", "message": "The correct answer is B because the subjects (Sir Andrew and Sir Toby) do the action (wrote). In other words, the sentence is in active voice rather than passive voice. While D is also active voice, it’s wordy. Remember, on the ACT there may be more than one correct answer, but you’re looking for the best one. Stay away from wordiness."},
+          {"text": "The letter, which is written by Sir Andrew and Sir Toby,", "message": "Nope, try again."},
+          {"text": "Sir Andrew and Sir Toby write the letter, and they do it", "message": "Nope, try again."}
+        ]
+      }
+    ]'></div>
 </body>
 
 </html>

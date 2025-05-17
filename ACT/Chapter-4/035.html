@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../style.css">
-</head>
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="../../quiz.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <div _ngcontent-cxv-c262="" class="college-prep-column-66 ml-32">
-        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-variation-practice-problems
-            _ngcontent-cxv-c262="" _nghost-cxv-c245="">
-            <h2 _ngcontent-cxv-c245="">Probability and Statistics Practice Problems</h2><app-quiz _ngcontent-cxv-c245=""
-                _nghost-cxv-c6="">
-                <div _ngcontent-cxv-c6="">
-                    <h4 _ngcontent-cxv-c6="" class="question-no"> Question 1 </h4>
-                    <p _ngcontent-cxv-c6="" class="question-text">Which of the following represents the ratio of hours
-                        to a day?<br>I. 24/1<br>II. 1: 24<br>III. 1 to 24<br>IV. 1/24<br>V. 24: 1</p><button
-                        _ngcontent-cxv-c6="" class="button-full-width"> I, III, and V </button><button
-                        _ngcontent-cxv-c6="" class="button-full-width"> II, III, and IV </button><button
-                        _ngcontent-cxv-c6="" class="button-full-width"> II, III, and V </button><button
-                        _ngcontent-cxv-c6="" class="button-full-width"> I and V </button><button _ngcontent-cxv-c6=""
-                        class="button-full-width"> II and IV </button><!----><!----><button _ngcontent-cxv-c6=""
-                        class="button-primary button-full-width">Next</button><!---->
-                </div><!---->
-            </app-quiz>
-        </app-variation-practice-problems><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+      <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-variation-practice-problems
+        _ngcontent-cxv-c262=""
+        _nghost-cxv-c245=""
+      >
+        <h2 _ngcontent-cxv-c245="">
+          Probability and Statistics Practice Problems
+        </h2> </app-variation-practice-problems
+      ><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
     </div>
-</body>
 
+    <div
+      class="quiz"
+      data-questions='[
+    {
+        "question": "Which of the following represents the ratio of hours to a day?<br />I. 24/1<br />II. 1: 24<br />III. 1 to 24<br />IV. 1/24<br />V. 24: 1",
+        "answers": [
+            {"text": "I, III, and V ", "message": "Nope, try again."},
+            {"text": "II, III, and IV ", "message": "Nope, try again."},
+            {"text": "II, III, and V", "message": "Nope, try again."},
+            {"text": "I and V", "message": "Correct!"},
+            {"text": "II and IV", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "There are 14 boys and 16 girls in Tyler’s class. Which ratio best represents the relationship between the number of boys and the total number of students in Tyler’s class?",
+        "answers": [
+            {"text": "7/8 ", "message": "Nope, try again."},
+            {"text": "7:10 ", "message": "Nope, try again."},
+            {"text": "7/15", "message": "Correct!"},
+            {"text": "14:16", "message": "Nope, try again."},
+            {"text": "8:15", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "The ratio of f(x) to g(x) is 3: x + 2. If f(x) = x – 2, what is g(x) in terms of x?",
+        "answers": [
+            {"text": "3x - 6", "message": "Nope, try again."},
+            {"text": "1/(x<sup>2</sup> - 2)", "message": "Nope, try again."},
+            {"text": "2/3x", "message": "Nope, try again."},
+            {"text": "3x<sup>2</sup> - 12", "message": "Nope, try again."},
+            {"text": "1/3(x<sup>2</sup> - 4)", "message": "Correct!"}
+        ]
+    },
+    {
+        "question": "If the ratio of A to B is 3:4 and the ratio of B to C is 2:3, what is the value of A when C is 5?",
+        "answers": [
+            {"text": "4/11", "message": "Nope, try again."},
+            {"text": "2 3/4", "message": "Nope, try again."},
+            {"text": "11/18", "message": "Correct!"},
+            {"text": "44/49", "message": "Nope, try again."},
+            {"text": "1 5/49", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "If y varies directly with x and y = 4, what is the value of y when x = 7/11?",
+        "answers": [
+            {"text": "4/11 ", "message": "Correct!"},
+            {"text": "2 3/4 ", "message": "Nope, try again."},
+            {"text": "11/18", "message": "Nope, try again."},
+            {"text": "44/49", "message": "Nope, try again."},
+            {"text": "1 5/49 ", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "If x varies inversely with y and y = 8 when x = 3, what is the value of x when y = 12?",
+        "answers": [
+            {"text": "9/4 ", "message": "Nope, try again."},
+            {"text": "1/2", "message": "Nope, try again."},
+            {"text": "4 ½", "message": "Nope, try again."},
+            {"text": "2", "message": "Correct!"},
+            {"text": "4/9", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "The variable s varies jointly with t and u such that s = 7 when t = 4 and u = 3. What is the constant of variation describing the relationship between s and t and u?",
+        "answers": [
+            {"text": "84 ", "message": "Nope, try again."},
+            {"text": "12/7", "message": "Nope, try again."},
+            {"text": "4/21", "message": "Nope, try again."},
+            {"text": "21/4", "message": "Nope, try again."},
+            {"text": "7/12", "message": "Correct!"}
+        ]
+    },
+    {
+        "question": "The value of w varies directly with x and y and inversely with z. The constant of variation is 13/7. What is the value of z when w = 13, and y = 3?",
+        "answers": [
+            {"text": "6/7 ", "message": "Correct!"},
+            {"text": "7/13 ", "message": "Nope, try again."},
+            {"text": "6/13", "message": "Nope, try again."},
+            {"text": "7/6", "message": "Nope, try again."},
+            {"text": "13/7 ", "message": "Nope, try again."}
+        ]
+    }
+]'
+    ></div>
+  </body>
 </html>

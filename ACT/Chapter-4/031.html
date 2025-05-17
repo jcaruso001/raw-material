@@ -1,30 +1,138 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../style.css">
-</head>
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="../../quiz.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <div _ngcontent-cxv-c262="" class="college-prep-column-66 ml-32">
-        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-practice-algebraic-expressions
-            _ngcontent-cxv-c262="" _nghost-cxv-c222="">
-            <h2 _ngcontent-cxv-c222="">Practice Problems for Manipulating Algebraic Expressions</h2><app-quiz
-                _ngcontent-cxv-c222="" _nghost-cxv-c6="">
-                <div _ngcontent-cxv-c6="">
-                    <h4 _ngcontent-cxv-c6="" class="question-no"> Question 1 </h4>
-                    <p _ngcontent-cxv-c6="" class="question-text">If x = – 3, then <br>4x<sup>2</sup> - 3x - 7 = ?</p>
-                    <button _ngcontent-cxv-c6="" class="button-full-width"> – 34 </button><button _ngcontent-cxv-c6=""
-                        class="button-full-width"> 20 </button><button _ngcontent-cxv-c6="" class="button-full-width">
-                        34 </button><button _ngcontent-cxv-c6="" class="button-full-width"> 38 </button><button
-                        _ngcontent-cxv-c6="" class="button-full-width"> 52 </button><!----><!----><button
-                        _ngcontent-cxv-c6="" class="button-primary button-full-width">Next</button><!---->
-                </div><!---->
-            </app-quiz>
-        </app-practice-algebraic-expressions><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+      <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><app-practice-algebraic-expressions
+        _ngcontent-cxv-c262=""
+        _nghost-cxv-c222=""
+      >
+        <h2 _ngcontent-cxv-c222="">
+          Practice Problems for Manipulating Algebraic Expressions
+        </h2> </app-practice-algebraic-expressions
+      ><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
     </div>
-</body>
 
+    <div
+      class="quiz"
+      data-questions='[
+    {
+        "question": "If x = – 3, then <br />4x<sup>2</sup> - 3x - 7 = ?",
+        "answers": [
+            {"text": "– 34", "message": "Nope, try again."},
+            {"text": "20", "message": "Nope, try again."},
+            {"text": "34", "message": "Nope, try again."},
+            {"text": "38", "message": "Correct!"},
+            {"text": "52", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "If 3x + 5y = 6 and 2x + y = 4, what is x?",
+        "answers": [
+            {"text": "2", "message": "Correct!"},
+            {"text": "0", "message": "Nope, try again."},
+            {"text": "-1", "message": "Nope, try again."},
+            {"text": "4", "message": "Nope, try again."},
+            {"text": "5", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "Evaluate √<span style=\"text-decoration: overline\">25a<sup>2</sup></span>",
+        "answers": [
+            {"text": "5", "message": "Nope, try again."},
+            {"text": "2a", "message": "Nope, try again."},
+            {"text": "25", "message": "Nope, try again."},
+            {"text": "5a", "message": "Correct!"},
+            {"text": "5a<sup>2</sup>", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "Factor 6x<sup>2</sup> - 12x + 6 completely",
+        "answers": [
+            {"text": "6(x – 1)(x + 2)", "message": "Nope, try again."},
+            {"text": "–6(–x + 4)(x + 2)", "message": "Nope, try again."},
+            {"text": "6(x – 1)(x – 1)", "message": "Correct!"},
+            {"text": "3(2x – 1)(x – 2)", "message": "Nope, try again."},
+            {"text": "2(3x + 2)(x + 1)", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "What is a possible solution of [2x − 3] – 4 = 3?",
+        "answers": [
+            {"text": "2", "message": "Nope, try again."},
+            {"text": "- 2", "message": "Correct!"},
+            {"text": "- 5", "message": "Nope, try again."},
+            {"text": "1", "message": "Nope, try again."},
+            {"text": "3", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "Which of the following is the equation of the line that goes through the points (17, 12) and (–13, –30))",
+        "answers": [
+            {"text": "y = (5/7)x - (1/7)", "message": "Nope, try again."},
+            {"text": "y = (5/7)x - (145/7)", "message": "Nope, try again."},
+            {"text": "y = (7/5)x - (59/5)", "message": "Correct!"},
+            {"text": "y = (7/5)x - (179/5)", "message": "Nope, try again."},
+            {"text": "y = (9/2)x - (129/2)", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "Which of the following is the equation of a line with a slope of 9/5 and goes through the point (10, –3)?",
+        "answers": [
+            {"text": "–9x + 5y = 75", "message": "Correct!"},
+            {"text": "–9x + 5y = –75", "message": "Nope, try again."},
+            {"text": "–9x + 5y = 23", "message": "Nope, try again."},
+            {"text": "–9x + 5y = –23", "message": "Nope, try again."},
+            {"text": "–9x + 5y = –105", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "Which of the following is the equation of the line that goes through the point (–16, 4) and is parallel to the line represent by the equation<br />y=(1/4)x+14?",
+        "answers": [
+            {"text": "y = (1/4)x", "message": "Nope, try again."},
+            {"text": "y = (1/4)x+8", "message": "Correct!"},
+            {"text": "y = -(1/4)x-15", "message": "Nope, try again."},
+            {"text": "y = -4x - 60", "message": "Nope, try again."},
+            {"text": "y = -4x", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "Which of the following is the equation of a line that goes through the point (–3, –1) and is perpendicular to the line with the equation <br />y=(3/4)x+5",
+        "answers": [
+            {"text": "y = (4/3)x + 3", "message": "Nope, try again."},
+            {"text": "y = (3/4)x + (5/4)", "message": "Nope, try again."},
+            {"text": "y = -x - 4", "message": "Nope, try again."},
+            {"text": "y = (4/3)x - 5", "message": "Correct!"},     
+            {"text": "y = (3/4)x - (13/4)", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "The system of equations has no solution. What is the value of m?<br /><img src=https://res.cloudinary.com/dldxizzkr/image/upload/v1598214031/2019/ACT/Screen_Shot_2020-07-09_at_10.18.59_AM.png />",
+        "answers": [
+            {"text": "-6", "message": "Nope, try again."},
+            {"text": "-4", "message": "Nope, try again."},
+            {"text": "-3/2", "message": "Nope, try again."},
+            {"text": "2/3", "message": "Correct!"},         
+            {"text": "14", "message": "Nope, try again."}
+        ]
+    },
+    {
+        "question": "The system of equations has an infinite number of solutions. What is the value of b?<br /><img src=https://res.cloudinary.com/dldxizzkr/image/upload/v1598214189/2019/ACT/Screen_Shot_2020-07-09_at_10.19.32_AM.png />",
+        "answers": [
+            {"text": "7/10", "message": "Nope, try again."},
+            {"text": "12/5", "message": "Nope, try again."},
+            {"text": "8", "message": "Nope, try again."},
+            {"text": "42/5", "message": "Correct!"},
+            {"text": "12", "message": "Nope, try again."}
+        ]
+    }
+]'
+    ></div>
+  </body>
 </html>
