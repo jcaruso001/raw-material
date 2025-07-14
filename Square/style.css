@@ -3,3 +3,9 @@
         display: none;
     }
 }
+
+
+.slideout__row {
+    width: 800px !important;
+    max-width: 800px;
+}
