@@ -56,8 +56,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 btn.addEventListener('click', () => {
                     // Clear highlight from all buttons
-                    answersEl.querySelectorAll('button').forEach(b => b.classList.remove('highlight'));
-                    btn.classList.add('highlight');
+                    answersEl.querySelectorAll('button').forEach(b => {
+                        b.classList.remove('highlight-correct');
+                        b.classList.remove('highlight-wrong');
+                    });
+
+                    if(answer.isCorrect === 'true') {
+                        btn.classList.add('highlight-correct');
+                    } else {
+                        btn.classList.add('highlight-wrong');
+                    }
 
                     resultEl.textContent = answer.message;
                     resultEl.className = 'result-message'

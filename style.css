@@ -42,9 +42,14 @@ p.question {
   margin-bottom: 8px;
 }
 
-.answer-button.highlight {
+.answer-button.highlight-wrong {
   color: #4a5669;
   background-color: #fc3;
+}
+
+.answer-button.highlight-correct {
+  color: #4a5669;
+  background-color: rgb(18 215 68);
 }
 
 .answer-button.next {
@@ -56,7 +61,7 @@ p.question {
   color: #a0abbc;
   position: relative;
   padding: 20px 0 20px 30px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 blockquote:before {
